@@ -1,0 +1,4 @@
+--- # testing the git hub update scenario
+ - hosts: 
+   variables:
+        host_name=test
