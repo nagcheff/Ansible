@@ -2,7 +2,7 @@
   vars:
     file_name: test
   tasks:
-    - name: retrive the data of {{file_name}}
+    - name: retrive the data of the {{file_name}}
       state:
          path: "/tmp/{{file_name}}"
       register: file
