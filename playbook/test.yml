@@ -1,0 +1,6 @@
+--- # testing the git hub update scenario
+ - hosts: 
+   variables:
+        host_name=test
+    task= hostname
+    install: name=httpd state=present
